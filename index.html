@@ -2,24 +2,38 @@
  <head>  <!--This is our head tag where we put our title and script and all infos relative to our page.-->
   <title>My Page Title</title>
   <style>
-   body {
-      text-align: center;
+   .container {
+      width: 960px;
+      margin-left: auto;
+      margin-right: auto;
    }
-   #my-name{
-      font-size: 50px;
-      text-decoration: underline;
+   .content {
+      background-color: red;
    }
-   .text {
-      font-family: Arial;
+   .sidebar {
+      background-color: green;
+   }
+   .footer {
+      background-color: blue;
    }
   </style>
  </head>
- <body> <!--This is where all our content will go-->
-    <h1 id="my-name">John Doe</h1>
-    <p class="text">I'm an <b>amazing</b> Designer</p>
-    <input class="form" type="email" placeholder="Your email">
-    <input class="button" type="submit">
-    <img class="image" src="images/racecar.jpg" alt="Racecar" width="300">
-    <a class="link" href="http://google.com"><b>GOOGLE</b></a>
+ <body>
+   <div class="container">
+      <div class="content">
+         <h1 id="my-name">John Doe</h1>
+         <p class="text">I'm an <b>amazing</b> Designer</p>
+         <input class="form" type="email" placeholder="Your email">
+         <input class="button" type="submit">
+         <img class="image" src="images/racecar.jpg" alt="Racecar" width="300">
+         <a class="link" href="http://google.com"><b>GOOGLE</b></a>
+      </div>
+      <div class="sidebar">
+         <p> lorem ipsumalkjdf;lajfadjsf asd </p>
+      </div>
+      <div class="footer">
+         <p> This is my footer</p>
+      </div>
+   </div>
  </body>
 </html>
